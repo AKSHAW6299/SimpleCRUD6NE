@@ -27,7 +27,7 @@ const UserSchema = new mongoose.Schema({
 });
 
 // STEP2 => We are creating Model using the Schema
-// Model name will be "User" and collection will be "users"
+// Model name will be "UserModel" and collection will be "Players"
 const UserModel = mongoose.model('Players', UserSchema);
 
 export default UserModel;
